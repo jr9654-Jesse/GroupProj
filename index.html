@@ -32,6 +32,9 @@
                     <li>
                         <a href="#sitemap_lofiprototype" class="nav-link text-gray-600 hover:text-gray-900 font-medium transition-colors duration-200 px-3 py-2 rounded-lg">Sitemap and Lo-Fi Prototype</a>
                     </li>
+                    <li>
+                        <a href="#sitemap_hifiprototype" class="nav-link text-gray-600 hover:text-gray-900 font-medium transition-colors duration-200 px-3 py-2 rounded-lg">High Fidelity Prototype</a>
+                    </li>
                 </ul>
             </nav>
         </div>
@@ -513,6 +516,292 @@
         </div>
     </div>
 </section>
+
+<!-- Hi-Fi Prototype -->
+<section id="sitemap_hifiprototype" class="bg-white rounded-3xl shadow-lg p-8 md:p-12 mb-8 transition-opacity duration-300 hidden opacity-0">
+    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-8">Milestone 5: High-Fidelity Prototype</h2>
+
+    <!-- Figma Embed Placeholder -->
+    <div class="bg-gray-50 p-6 rounded-2xl mb-10">
+        <h3 class="text-2xl font-semibold text-gray-900 mb-4 border-b pb-2 border-gray-200">Interactive Figma Prototype</h3>
+        <p class="text-gray-700 mb-4"></p>
+        <iframe
+            src="https://embed.figma.com/proto/oB34jS6nRRprafqFstA6fY/HCIN-620-Prototype?node-id=728-8853&p=f&scaling=scale-down&content-scaling=fixed&page-id=409%3A1582&starting-point-node-id=728%3A8853&show-proto-sidebar=1&embed-host=share"
+            style="width:100%; height:500px; border:1px solid rgba(0,0,0,0.1);"
+            allowfullscreen>
+        </iframe>
+    </div>
+
+    <!-- Introduction -->
+    <div class="space-y-6 mb-12">
+        <h3 class="text-2xl font-semibold text-gray-900">Introduction</h3>
+        <p class="text-gray-700 leading-relaxed">
+            This report outlines the development and usability evaluation of the “Wishlist Wardrobe” high-fidelity prototype. The current prototype builds on the initial low-fidelity prototype by introducing refined workflows for features such as the AI-driven style feed, multi-closet organization, and an optimized search and cart experience. The following sections detail the design rationale and present the comprehensive results from usability testing with four participants.
+        </p>
+    </div>
+
+    <!-- Prototype Overview -->
+    <div class="space-y-10 mb-12">
+        <h3 class="text-2xl font-semibold text-gray-900">Prototype Overview</h3>
+
+        <div class="bg-blue-50 p-6 rounded-2xl">
+            <h4 class="text-xl font-semibold text-gray-900 mb-2">Login</h4>
+            <ul class="list-disc list-inside space-y-2 text-gray-700">
+                <li>Sign In/Login: Manual login or via Google/Facebook. Option to create a new account.</li>
+                <li>Personality Quiz: New users complete a quiz and receive a personality rating with usage recommendations.</li>
+            </ul>
+        </div>
+
+        <div class="bg-green-50 p-6 rounded-2xl">
+            <h4 class="text-xl font-semibold text-gray-900 mb-2">Wardrobe</h4>
+            <ul class="list-disc list-inside space-y-2 text-gray-700">
+                <li>Wardrobe Landing Page: Daily AI-powered outfit overview based on weather and occasion.</li>
+                <li>My Closet: Users manage individual items and curated outfits.</li>
+                <li>Shared Closet: Edit and manage another user’s closet.</li>
+                <li>Add Item/Outfit: Upload image, add name, category, and details.</li>
+                <li>Analytics & Settings: View insights and manage preferences.</li>
+            </ul>
+        </div>
+
+        <div class="bg-yellow-50 p-6 rounded-2xl">
+            <h4 class="text-xl font-semibold text-gray-900 mb-2">Search</h4>
+            <ul class="list-disc list-inside space-y-2 text-gray-700">
+                <li>Search Landing Page with smart search and personalized popular items.</li>
+                <li>Quick Categories Filter with editable preference-based filters.</li>
+            </ul>
+        </div>
+
+        <div class="bg-purple-50 p-6 rounded-2xl">
+            <h4 class="text-xl font-semibold text-gray-900 mb-2">Trending</h4>
+            <ul class="list-disc list-inside space-y-2 text-gray-700">
+                <li>Feed: Social-style feed of curated outfits from other users.</li>
+                <li>Shared Boards: Community inspiration boards.</li>
+            </ul>
+        </div>
+
+        <div class="bg-red-50 p-6 rounded-2xl">
+            <h4 class="text-xl font-semibold text-gray-900 mb-2">Cart</h4>
+            <ul class="list-disc list-inside space-y-2 text-gray-700">
+                <li>Specific Item Details and adding to cart.</li>
+                <li>Multiple carts for different users.</li>
+                <li>Deals and Discounts.</li>
+                <li>Orders and Returns.</li>
+                <li>Checkout, Place Order, and Order Confirmation.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Design Rationale -->
+    <div class="space-y-6 mb-12">
+        <h3 class="text-2xl font-semibold text-gray-900">Design Rationale</h3>
+        <p class="text-gray-700 leading-relaxed">The login and style quiz were included to support personalization and reflect common mobile app onboarding patterns. Search filters were downsized to better support Hick’s Law and reduce cognitive overload, and icons were added to enhance recognition. The cart workflow was redesigned to reduce steps and maintain consistency across checkout-related pages.</p>
+    </div>
+
+    <!-- Testing Preparation -->
+    <div class="space-y-6 mb-12">
+        <h3 class="text-2xl font-semibold text-gray-900">Testing Preparation Details</h3>
+        <p class="text-gray-700 leading-relaxed">
+            Participants were introduced to the Wishlist Wardrobe prototype through a standardized test script. They were guided through tasks involving adding items to closets, searching for products, and completing purchases while thinking aloud.
+        </p>
+    </div>
+
+    <!-- Pilot Study Summary -->
+    <div class="space-y-6 mb-12">
+        <h3 class="text-2xl font-semibold text-gray-900">Pilot Study Test Responses</h3>
+        <p class="text-gray-700 leading-relaxed">
+            Four participants completed usability testing. Major themes included confusion around multiple closets and carts, mixed reactions to AI-generated imagery, and high workload associated with adding items and outfits. Participants valued cross-shopping, organization, and confirmation feedback such as “Added to Cart” messages.
+        </p>
+    </div>
+
+    <!-- Usability Test: Original Question List -->
+   <div class="space-y-6 mb-12">
+                <h3 class="text-2xl font-semibold text-gray-900">Testing Preparation Details</h3>
+
+                <div class="bg-white p-6 rounded-2xl border text-gray-700 leading-relaxed space-y-4">
+                    <h4 class="text-xl font-semibold text-gray-900">Initial Test Script</h4>
+
+                    <p>Hello [user name]! Thank you for participating in this testing session today. My name is [ ], and I’ll be guiding you through the session.</p>
+
+                    <p>We’re testing the prototype of a new shopping app called Wishlist Wardrobe. The app is designed to facilitate shopping for multiple shoppers with dedicated closets and the option to save each person’s preferences such as sizes, color choices, and brands. The functionalities we’ll focus on today include creating a closet, searching for items, and adding them to the cart.</p>
+
+                    <p>I would like to share a few notes and reminders before we begin:</p>
+
+                    <p>The purpose of this test is to understand how people interact with this design and the novel features of this app. It is not intended as a test of you or your ability to navigate through the prototype. There are no right or wrong answers, and we’re here to learn from your reactions and expectations.</p>
+
+                    <p>Your participation is voluntary, and you may stop at any time. With your permission, we’ll be taking notes to inform our design. Everything you share will remain confidential and be used only for research.</p>
+
+                    <p>As you go through the tasks, please think out loud. Tell me what you’re looking for, what you expect to happen, anything that confuses you as well as what works well for you. Hearing your thought process helps us understand how you interpret the design.</p>
+
+                    <p><strong>Do you have any questions before we begin?</strong></p>
+
+                    <h4 class="text-xl font-semibold text-gray-900 pt-4">Task List</h4>
+
+                    <p><strong>Context for the user:</strong> Let’s assume you are a personal stylist who shops on behalf of multiple people including yourself. The app allows you to manage multiple closets. As this is a prototype, you will not have an option to create a closet but you can work with the existing closets.</p>
+
+                    <ul class="list-disc list-inside space-y-2">
+                        <li><strong>Task 0:</strong> Let’s start by going through the home page. Do you have any thoughts about the layout of information or options presented on this page?</li>
+                        <li><strong>Task 1:</strong> Using this interface, please add an item to your closet.</li>
+                        <li><strong>Task 2:</strong> Please add an outfit to Melissa’s closet.</li>
+                        <li><strong>Task 3:</strong> Please search for an item that you think your shopper might want.</li>
+                        <li>What do you think of the available filter options for search results?</li>
+                        <li>Filter results by “My Sale Items” and select the “Free People Fleece”.</li>
+                        <li><strong>Task 3 (continued):</strong> Please add the selected item to Melissa’s cart and check out.</li>
+                        <li><strong>Task 4:</strong> You want to make some changes to your saved style preferences on the app. How would you do that?</li>
+                        <li>(If they don’t find it on their own) There is a button for a “Personality/Style Quiz” on the home page. As this is a prototype, navigation through the quiz is not included past the first page. Do you have any thoughts on that page or on questions the quiz should ask?</li>
+                        <li>There is a button to skip past the quiz. What do you think of its location?</li>
+                    </ul>
+
+                    <h4 class="text-xl font-semibold text-gray-900 pt-6">Post-Study Questions</h4>
+
+                    <h5 class="font-semibold">General Experience</h5>
+                    <ul class="list-disc list-inside space-y-1">
+                        <li>How would you describe your overall experience using the prototype?</li>
+                        <li>What parts felt easiest or most straightforward?</li>
+                        <li>What parts felt difficult or confusing?</li>
+                    </ul>
+
+                    <h5 class="font-semibold pt-4">Add Item/Outfit to Closet</h5>
+                    <ul class="list-disc list-inside space-y-1">
+                        <li>How was the experience of adding an item to your closet?</li>
+                        <li>How was the experience of adding an outfit as compared to an item to Melissa’s closet?</li>
+                        <li>Were there things you expected that didn’t happen?</li>
+                        <li>Was there any information provided that felt unnecessary?</li>
+                    </ul>
+
+                    <h5 class="font-semibold pt-4">Search & Browsing</h5>
+                    <ul class="list-disc list-inside space-y-1">
+                        <li>How was your experience searching for items?</li>
+                        <li>What helped you find what you were looking for?</li>
+                        <li>What got in the way, if anything?</li>
+                        <li>Is there anything about the search experience you would like to be done differently?</li>
+                    </ul>
+
+                    <h5 class="font-semibold pt-4">Cart Interaction</h5>
+                    <ul class="list-disc list-inside space-y-1">
+                        <li>How easy or difficult was it to add an item to the cart?</li>
+                        <li>You had to select a person’s cart to add an item to. How did you feel about working with multiple carts?</li>
+                        <li>How did you feel about the checkboxes to select items from the cart before checking out?</li>
+                        <li>What did you expect to see after adding to cart?</li>
+                    </ul>
+
+                    <h5 class="font-semibold pt-4">Navigation & Clarity</h5>
+                    <ul class="list-disc list-inside space-y-1">
+                        <li>How would you describe the navigation overall?</li>
+                        <li>Were there times when you were unsure where to go next?</li>
+                        <li>Are there changes that would make the experience better for you?</li>
+                    </ul>
+
+                    <h5 class="font-semibold pt-4">Closing</h5>
+                    <ul class="list-disc list-inside space-y-1">
+                        <li>If this app was publicly available, how likely would you be to use it? On a scale of 1 (not likely at all) to 5 (very likely)?</li>
+                        <li>Is there anything we didn’t ask about that you think is important to share?</li>
+                    </ul>
+                </div>
+            </div>
+
+    <!-- Usability Test Notes -->
+    <div class="bg-white p-6 rounded-2xl mb-10 border">
+        <h3 class="text-2xl font-semibold text-gray-900 mb-6">Notes From Usability Tests (Pilot)</h3>
+
+        <div class="space-y-6 text-gray-700">
+            <div>
+                <h4 class="font-semibold">Test 1 – Occasional Shopper (12/4/2025)</h4>
+                <p>Found homepage overwhelming and strongly disliked AI imagery. Experienced confusion between “Wishlist” and “Closet” terminology. Adding items felt input-heavy. Outfit creation felt like excessive work. Filters were confusing but checkout flow and confirmation feedback were positive. Multiple closets and carts felt cognitively demanding. Likelihood of use: 2/5.</p>
+            </div>
+            <div>
+                <h4 class="font-semibold">Test 2 – Seasonal Shopper (12/4/2025)</h4>
+                <p>Found outfit recommendation interesting but was skeptical of AI imagery. Adding items was organized but time-consuming. Preferred filters over quiz for preferences. Multiple carts introduced unnecessary friction. Valued cross-shopping. Likelihood of use: 3/5.</p>
+            </div>
+            <div>
+                <h4 class="font-semibold">Test 3 – Working Professional (12/3/2025)</h4>
+                <p>Overwhelmed by personalization data and AI features. Strong confusion around filters, item vs. outfit workflows, and cart icon behavior. Appreciated multiple cart concept for organization. Desired clearer “Add to Cart” labeling and simplified data collection. Likelihood of use: 4/5.</p>
+            </div>
+            <div>
+                <h4 class="font-semibold">Test 4 – Fashion Enthusiast (12/3/2025)</h4>
+                <p>Liked visual layout but confused by closet vs. cart distinction. Difficulty identifying outfit vs. item flows. Filters felt like preferences rather than search controls. Desired clearer preference management. Likelihood of use: 3/5.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Changes Following Pilot Study -->
+    <div class="bg-white p-6 rounded-2xl mb-10 border">
+        <h3 class="text-2xl font-semibold text-gray-900 mb-4">Changes Following Pilot Study</h3>
+        <ul class="list-disc list-inside space-y-2 text-gray-700">
+            <li>Reconsider AI-generated content on the landing page due to strong negative reactions.</li>
+            <li>Improve explanation of the distinction between closets and carts.</li>
+            <li>Redesign search filters to align with conventional e-commerce filtering expectations.</li>
+            <li>Explore multiple closets per shopper by category (e.g., work, casual, events).</li>
+        </ul>
+    </div>
+
+    <!-- Finalized Question List -->
+        <div class="bg-white p-6 rounded-2xl mb-10 border">
+            <h3 class="text-2xl font-semibold text-gray-900 mb-4">Finalized Usability Test Script & Question List</h3>
+
+            <h4 class="text-xl font-semibold text-gray-900 mb-2">Task List</h4>
+            <p class="text-gray-700 mb-3"><strong>Context for the user:</strong> Let’s assume you are a personal stylist who shops on behalf of multiple people including yourself. The app allows you to manage multiple closets. As this is a prototype, you will not have an option to create a closet but you can work with the existing closets.</p>
+
+            <ul class="list-disc list-inside space-y-2 text-gray-700 mb-6">
+                <li><strong>Task 0: Home Page Scanning</strong> – Let’s start by going through the home page. Do you have any initial thoughts about the layout of information presented here?</li>
+                <li><strong>Task 1: Add Item to Personal Closet</strong> – Using this interface, please add an item to your closet.
+                    <ul class="list-disc list-inside ml-6 mt-1"><li><strong>Moderator:</strong> Did anything about this process surprise you?</li></ul>
+                </li>
+                <li><strong>Task 2: Add Outfit to Client Closet</strong> – Please add an outfit to Melissa’s closet.
+                    <ul class="list-disc list-inside ml-6 mt-1"><li><strong>Moderator:</strong> How did adding an outfit compare to adding the single item earlier?</li></ul>
+                </li>
+                <li><strong>Task 3: Search and Filter</strong> – Please search for an item that you think your shopper might want.
+                    <ul class="list-disc list-inside ml-6 mt-1 space-y-1">
+                        <li><strong>Moderator:</strong> What do you think of the available filter options for search results?</li>
+                        <li><strong>Action:</strong> Filter results by “My Sale Items” and select the “Free People Fleece”.</li>
+                    </ul>
+                </li>
+                <li><strong>Task 4: Multiple Carts & Checkout</strong> – Please add the selected item to Melissa’s cart and check out.
+                    <ul class="list-disc list-inside ml-6 mt-1 space-y-1">
+                        <li><strong>Moderator:</strong> You had to select a specific person’s cart to add the item to. How did that feel to you?</li>
+                        <li><strong>Moderator:</strong> How did you feel about the checkbox to select items before checking out?</li>
+                    </ul>
+                </li>
+                <li><strong>Task 5: Style Preferences</strong> – You want to make some changes to your saved style preferences on the app. How would you do that?
+                    <ul class="list-disc list-inside ml-6 mt-1 space-y-1">
+                        <li>If they don’t find it on their own, direct them to the “Personality/Style Quiz” button.</li>
+                        <li><strong>Note:</strong> As this is a prototype, navigation through the quiz is not included past the first page.</li>
+                        <li><strong>Moderator:</strong> There is a button to skip past the quiz. What do you think of its location?</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <h4 class="text-xl font-semibold text-gray-900 mb-2">Post-Study Questions</h4>
+
+            <h5 class="font-semibold text-gray-900">General Experience</h5>
+            <ul class="list-disc list-inside space-y-1 text-gray-700 mb-4">
+                <li>Since you were managing closets for both yourself and Melissa, was the distinction between “Your Closet” and “Melissa’s Closet” clear throughout the app?</li>
+                <li>Regarding the specific feature of managing multiple carts, did the workflow make sense to you? Please explain.</li>
+            </ul>
+
+            <h5 class="font-semibold text-gray-900">Prototype Value</h5>
+            <ul class="list-disc list-inside space-y-1 text-gray-700 mb-4">
+                <li>Based on the features that you saw today (styling for others, managing multiple closets) who do you think this app is most suited for?</li>
+                <li>If this app was fully built out and publically available, how likely would you be to use it? (Scale of 1–5)</li>
+            </ul>
+
+            <h5 class="font-semibold text-gray-900">Closing</h5>
+            <ul class="list-disc list-inside space-y-1 text-gray-700">
+                <li>Is there anything else about your experience that would be valuable to share?</li>
+            </ul>
+        </div>
+
+
+    <!-- Closing Reflection -->
+    <div class="bg-gray-50 p-6 rounded-2xl">
+        <h3 class="text-2xl font-semibold text-gray-900 mb-2">Overall Evaluation</h3>
+        <p class="text-gray-700 leading-relaxed">
+            Overall, users found the app concept useful, particularly for managing multiple shoppers and organizing items across brands. However, the prototype revealed significant usability challenges related to cognitive load, discoverability of features, and perceived effort required for outfit and item management. These findings will directly inform future design iterations.
+        </p>
+    </div>
+
+</section>
+
+
     </main>
 
     <!-- Footer -->
