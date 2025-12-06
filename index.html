@@ -594,7 +594,42 @@
     <!-- Design Rationale -->
     <div class="space-y-6 mb-12">
         <h3 class="text-2xl font-semibold text-gray-900">Design Rationale</h3>
-        <p class="text-gray-700 leading-relaxed">The login and style quiz were included to support personalization and reflect common mobile app onboarding patterns. Search filters were downsized to better support Hick’s Law and reduce cognitive overload, and icons were added to enhance recognition. The cart workflow was redesigned to reduce steps and maintain consistency across checkout-related pages.</p>
+
+        <div class="bg-white p-6 rounded-2xl border space-y-6 text-gray-700 leading-relaxed">
+            <div>
+                <h4 class="text-xl font-semibold text-gray-900 mb-2">Login</h4>
+                <p>One usability principle that I used in reasoning for building this out was <strong>Jakob’s Law</strong>, where users expect familiar login patterns which increases learnability.</p>
+                <p>I also created a mock Questionnaire for the personality quiz based on previous research.</p>
+            </div>
+
+            <div>
+                <h4 class="text-xl font-semibold text-gray-900 mb-2">Wardrobe</h4>
+                <p>The wardrobe section was redesigned and improved upon with stronger visual hierarchy and cleaner category structure. One of the project goals was to simplify how users chose items and organize clothing.</p>
+                <p>This new and improved design encompasses a clean, intuitive, and familiar mental model that users might already know how to use (such as sliders, and large CTA’s).</p>
+                <p>One usability principle that I used was <strong>Hick’s Law</strong>, where grouping content into a slider (Items ↔ Outfits) reduced clutter which minimized design fatigue.</p>
+            </div>
+
+            <div>
+                <h4 class="text-xl font-semibold text-gray-900 mb-2">Search</h4>
+                <p>The Search Filter options were downsized based on results from the low-fidelity prototype. The previous page included 8 filters in a row while the current page has been significantly reduced.</p>
+                <p>Providing too many choices did not support <strong>Hick’s Law</strong>, while minimizing the amount of filters improves the users’ ability to make faster decisions.</p>
+                <p>Icons were also added to each filter option to increase recognition.</p>
+            </div>
+
+            <div>
+                <h4 class="text-xl font-semibold text-gray-900 mb-2">Trending</h4>
+                <p>Trending was also not part of the low fidelity prototype but was an integral part of the overall app and listed on the sitemap, so I decided to build it out.</p>
+                <p>Another reason was that our research personas highlighted a need for social discovery and motivation.</p>
+                <p>One usability principle that I used was <strong>cognitive load reduction</strong> by including the primary set of content on one view (Feed) and another set (shared content) on Shared Boards.</p>
+            </div>
+
+            <div>
+                <h4 class="text-xl font-semibold text-gray-900 mb-2">Cart</h4>
+                <p>Based on feedback from the low-fidelity prototype, the cart workflow was modified. Users can now select items from the cart page directly without having to filter through the categories.</p>
+                <p>This reduced users' workload by eliminating an additional step and requiring them to visit each category page. The detailed product information was also removed from the items on the Cart Page. The user can select the item if they wish to see the additional item details.</p>
+                <p>The Cart page for the low-fidelity prototype required the user to select the heading to purchase an item. To maintain external and internal consistency, the check out button was added to the bottom of the Cart. This design is consistent for the Check Out, Shipping, Payment, and Place Order page as well.</p>
+            </div>
+        </div>
     </div>
 
     <!-- Testing Preparation -->
@@ -613,14 +648,13 @@
         </p>
     </div>
 
-    <!-- Usability Test: Original Question List -->
+    <!-- Usability Test: Initial Question List -->
    <div class="space-y-6 mb-12">
-                <h3 class="text-2xl font-semibold text-gray-900">Testing Preparation Details</h3>
+                <h3 class="text-2xl font-semibold text-gray-900">Initial Question List</h3>
 
                 <div class="bg-white p-6 rounded-2xl border text-gray-700 leading-relaxed space-y-4">
-                    <h4 class="text-xl font-semibold text-gray-900">Initial Test Script</h4>
 
-                    <p>Hello [user name]! Thank you for participating in this testing session today. My name is [ ], and I’ll be guiding you through the session.</p>
+                    <p>Hello [participant name]! Thank you for participating in this testing session today. My name is [moderator name ], and I’ll be guiding you through the session.</p>
 
                     <p>We’re testing the prototype of a new shopping app called Wishlist Wardrobe. The app is designed to facilitate shopping for multiple shoppers with dedicated closets and the option to save each person’s preferences such as sizes, color choices, and brands. The functionalities we’ll focus on today include creating a closet, searching for items, and adding them to the cart.</p>
 
